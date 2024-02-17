@@ -1,3 +1,5 @@
+server:
+  port: 8081
 # DataSource settings: set here your own configurations for the database 
 spring:
   datasource:
