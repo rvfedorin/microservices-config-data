@@ -3,10 +3,9 @@ server:
 # DataSource settings: set here your own configurations for the database 
 spring:
   datasource:
-    url: jdbc:h2:mem:local
-    # url: "jdbc:postgresql://database:5432/ostock_dev"
-    # username: "postgres"
-    # password: "{cipher}e01451cbb795bb9a074aac9ff6d9c12bc0c79a987bfa5d14d28afae889709d36"
+    url: "jdbc:postgresql://database:5432/ostock_dev"
+    username: "postgres"
+    password: "{cipher}e01451cbb795bb9a074aac9ff6d9c12bc0c79a987bfa5d14d28afae889709d36"
 
 eureka:
   instance:
